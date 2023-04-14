@@ -1,10 +1,11 @@
+#import necesaary files
 import face_recognition as fr
 import cv2
 import numpy as np
 import os
 
 path = "./train/"
-
+#declare variables
 known_names = []
 known_name_encodings = []
 
